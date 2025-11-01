@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+:root{
+    --cor-primaria: red
+    --cor-secundaria: black 
+}
+
+.title{
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
