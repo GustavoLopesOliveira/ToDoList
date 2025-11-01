@@ -6,14 +6,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 
 :root{
-    --cor-primaria: red
-    --cor-secundaria: black 
+    --cor-primaria: red;
+    --cor-secundaria: rgb(23, 75, 163) ;
+    --cor-base: pink;
 }
 
 .title{
     font-family: "Caveat Brush", cursive;
     font-weight: 400;
+    font-size: 5em;
     font-style: normal;
+
+    display: flex;
+    justify-self: center;
+
+}
+
+body{
+    background-color: pink;
 }
 
 
+.container_inputs{
+    display: flex;
+
+    
+    flex-direction: column;
+    margin: auto;
+
+    padding: 10px;
+    max-width: 300px;
+}
+
+.container_inputs input{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+
+    transition: transform  1.5s;
+}
+
+.container_inputs input:hover{
+    transform: scale(1.1);
+    border: 100px green;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-self: center;
+
+
+    background-color: var(--cor-secundaria);
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 10px;
+
+    transition: transform 1s;
+}
+
+footer:hover{
+    transform: scale(1.1);
+}
