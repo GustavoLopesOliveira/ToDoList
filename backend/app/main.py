@@ -1,13 +1,13 @@
 from fastapi import FastAPI
 
-from model.Task import Task
+from backend.model.Task import Task
 
 app = FastAPI()
 
 
-
+#TODO do the service
 datas = [
-    Task(id=1, titulo="aa", descricao="aaa")
+    Task(id=1, name="aa", description="aaa")
 ]
 
 @app.get("/")
